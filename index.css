@@ -1,0 +1,306 @@
+/* index .css PAGE 1*/
+
+.page1 {
+    background-image: url('bgp1.png');
+    background-size: cover;
+    font-family: 'Afacad Flux', 'Source Code Pro', Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(248, 240, 255);
+}
+
+nav {
+    height: 80px;
+    display: block;
+}
+
+nav>img {
+    text-align: left;
+    display: block;
+    width: 80px;
+    /* text-size-adjust: 3%; */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    background-color: rgb(68, 68, 72);
+    background-size: cover;
+    list-style: none;
+    float: right;
+    font-size: 96%;
+}
+
+nav ul li a {
+    display: block;
+    font-weight: bold;
+    padding: .625em 3.5em;
+    font-family: 'Afacad Flux';
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-right: 1px black;
+}
+
+main {
+    display: block;
+    text-align: right;
+    float: right;
+    width: 57%;
+    background-size: cover;
+    background-color: rgba(78, 78, 81, 0.786);
+    height: fit-content;
+    padding: 0.5em 0.5em
+}
+
+h1 {
+    font-family: 'Afacad Flux', Arial;
+    font-size: 5em;
+    color: antiquewhite;
+}
+
+main h2 {
+    font-family: 'Source Code Pro', Arial;
+    font-size: 2em;
+    color: rgb(224, 222, 222);
+    font-weight: bolder;
+}
+
+main p {
+    font-family: 'Source Code Pro', Arial;
+    color: rgb(224, 222, 222);
+    font-size: 1em;
+}
+
+.apply {
+    background-color: rgb(51, 51, 53);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: 'Afacad Flux', Arial;
+    text-decoration: none;
+    color: antiquewhite;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+    padding: .625em 3.5em;
+    border-radius: 10px
+}
+
+footer {
+    font-family: 'Afacad Flux', Arial;
+    padding: .625em 3.5em;
+    background-color: rgb(56, 56, 58);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* jobs.css PAGE 2*/
+
+body .page2 {
+    background-color: rgb(177, 177, 177);
+    font-family: 'Afacad Flux';
+    color: rgb(66, 66, 66);
+}
+
+.logo {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.project {
+    text-align: left;
+    /* text-size-adjust: 5%; */
+    width: 100%;
+    height: max-content;
+    object-fit: cover;
+}
+
+.data {
+    text-align: left;
+    /* text-size-adjust: 5%; */
+    width: 100%;
+    height: max-content;
+    object-fit: cover;
+}
+
+.page2 ul li a {
+    display: block;
+    font-weight: bold;
+    padding: .625em 3.5em;
+    font-family: 'Afacad Flux';
+    color: rgb(255, 255, 255);
+    border-right: 1px black;
+}
+
+.bg {
+    font-family: 'Afacad Flux', Arial;
+    text-align: center;
+    font-size: 7em;
+    color: rgb(255, 255, 255);
+    padding: 0.2em 0.4em;
+    background-image: url("bgp1.png");
+    background-size: cover;
+}
+
+section h2 {
+    font-family: 'Afacad Flux', Arial;
+    font-size: 2em;
+    color: rgb(50, 50, 50);
+    font-weight: bolder;
+}
+
+section p {
+    font-family: 'Afacad Flux', Arial;
+    font-size: 1.2em;
+}
+
+div {
+    text-align: center;
+    clear: both;
+    background-color: rgb(51, 51, 53);
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+    padding: .625em 3.5em;
+    border-radius: 10px;
+}
+
+div a {
+    font-size: 1.3em;
+    font-family: 'Afacad Flux', Arial;
+    color: antiquewhite;
+}
+
+#job2,
+#job3 {
+    float: left;
+    width: 47%;
+    text-align: justify;
+    margin: 1em 1em 1em 1em;
+}
+
+footer p a{
+    font-family: 'Afacad Flux', Arial;
+    padding: .625em 3.5em;
+    background-color: rgb(56, 56, 58);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+/* for form PAGE 3*/
+.page3 {
+    background-image: url('bgp1.png');
+    background-size: cover;
+    font-family: 'Afacad Flux', 'Source Code Pro', Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(248, 240, 255);
+}
+form {
+    text-align: left;
+}
+
+/* dropdown */
+/* Style The Dropdown Button */
+
+.dropdown img {
+    text-align: left;
+    display: block;
+    width: 80px;
+    /* text-size-adjust: 3%; */
+}
+
+.drop {
+    left: 100%;
+    background-color: black;
+    color: white;
+    /* padding: 16px; */
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #252525;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(179, 161, 161, 0.212);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgb(247, 247, 247);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #000000
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*about.html* PAGE 4/
+/*member's infor with background-color*/
+body {
+    background-color: rgb(177, 177, 177);
+    font-family: 'Afacad Flux';
+    color: rgb(66, 66, 66);
+}
+figure img{
+    float: left;
+    width: 35%;
+}
+/*khanh's part*/
+aside {
+    float: left;
+    width: 40%;
+    padding: 2px 2px;
+}
+ul {
+    float: right;
+    background-size: cover;
+    
+}
+ul li {
+    color: white;
+    text-align: left;
+}
+table {
+    border: 2em;
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid rgb(83, 83, 83);
+    color: rgb(68, 68, 68);
+    margin-top: 10%;
+}
+.abus h1 {
+    font-family: 'Afacad Flux', Arial;
+    text-align: center;
+    font-size: 7em;
+    color: rgb(255, 255, 255);
+    padding: 0.2em 0.4em;
+    background-image: url("bgp1.png");
+    background-size: cover;
+}
