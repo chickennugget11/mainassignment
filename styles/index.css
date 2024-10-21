@@ -300,13 +300,13 @@ aside {
     padding: 2px 2px;
 }
 
-ul {
+.abus ul {
     /* float: right; */
     background-size: cover;
-
+    width: 45%;
 }
 
-ul li {
+.abus ul li {
     color: white;
     text-align: left;
 }
