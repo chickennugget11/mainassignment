@@ -128,7 +128,7 @@ footer {
 }
 
 #footer_right ul li {
-    /* display: inline-block; */
+    list-style-type: none;
 }
 
 footer span {
