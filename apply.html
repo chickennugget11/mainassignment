@@ -35,8 +35,9 @@
 	</header>
 
 	<main>
-
+		<!-- form -->
 		<form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
+			<!-- Reference number, name, date of birth -->
 			<label for="job_ref">Job Reference Number: </label>
 			<input type="text" name="job_ref" id="job_ref" pattern="[a-zA-Z0-9]{5}" required placeholder="JOB00"><br>
 
@@ -48,7 +49,7 @@
 
 			<label for="dob">Date of Birth: </label>
 			<input type="text" name="dob" id="dob" pattern="\d{2}/\d{2}/\d{4}" required placeholder="01/01/1970"><br>
-
+			<!-- gender -->
 			<fieldset>
 				<legend>Gender: </legend>
 				<label>Gender: </label><br>
@@ -59,7 +60,7 @@
 				<input type="radio" name="gender" value="other" id="other">
 				<label for="other"> Other</label><br>
 			</fieldset>
-
+			<!-- address, suburb/town, state, postcode -->
 			<label for="address">Street Address: </label>
 			<input type="text" name="address" id="address" pattern="[a-zA-Z0-9]{0, 40}" required
 				placeholder="00 Random Street"><br>
@@ -82,13 +83,13 @@
 
 			<label for="post">Postcode: </label>
 			<input type="text" id="post" pattern="\d{4}" required placeholder="0000"><br>
-
+			<!-- email, phone -->
 			<label for="email">Email address: </label>
 			<input type="email" name="email" id="email" required placeholder="john@doe.com"><br>
 
 			<label for="num">Phone Number: </label>
 			<input type="text" name="num" id="num" pattern="\d{8, 12}" required placeholder="00000000"><br>
-
+			<!-- skills -->
 			<label>Skill Lists: </label><br>
 			<input type="checkbox" name="HTML" id="html" checked><label for="html"> HTML</label><br>
 			<input type="checkbox" name="CSS" id="css"><label for="css"> CSS</label><br>
@@ -98,8 +99,9 @@
 			<input type="checkbox" name="OtherSkills" id="other_skill"><label for="other_skill">Other skills</label><br>
 
 			<label for="other_skills_textarea">if you have other skills, fill them here: </label><br>
-			<textarea name="other_skills" id="other_skills_textarea" placeholder="Your other skills..."> </textarea>
-			<input type="submit" value="Apply">
+			<textarea name="other_skills" id="other_skills_textarea" placeholder="Your other skills..."> </textarea><br>
+			<!-- submit -->
+			<input type="submit" value="Apply" class="apply">
 		</form>
 		<br>
 

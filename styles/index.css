@@ -64,6 +64,11 @@ main {
     padding: 0.5em 0.5em
 }
 
+main>a {
+    text-decoration: none;
+    color: white;
+}
+
 h1 {
     font-family: 'Afacad Flux', Arial;
     font-size: 5em;
@@ -365,6 +370,9 @@ td a {
     background-size: cover;
 }
 
+.abus {
+    display: block;
+}
 
 
 aside img {
