@@ -63,6 +63,7 @@ h1 {
     font-size: 5em;
     color: antiquewhite;
     background: none;
+    text-shadow: 3px 3px 6px grey;
 }
 
 main h2 {
