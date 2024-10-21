@@ -93,12 +93,42 @@ main p {
 }
 
 footer {
-    font-family: 'Afacad Flux', Arial;
-    padding: .625em 3.5em;
+    display: flex;
+    width: 100%;
     background-color: rgb(56, 56, 58);
     color: rgb(255, 255, 255);
-    text-align: center;
+    padding: 0.625em;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* to clear floats */
 }
+
+#footer_left,
+#footer_right {
+    /* display: flex; */
+    /* float: left; */
+    width: 50%;
+    height: 100%;
+
+}
+
+footer span {
+    display: block;
+}
+
+footer p {
+    display: flex;
+}
+
+footer p,
+footer ul {
+    /* display: flex; */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
 
 /* jobs.css PAGE 2*/
 
@@ -164,7 +194,7 @@ section p {
 div {
     text-align: center;
     clear: both;
-    background-color: rgb(51, 51, 53);
+    /* background-color: rgb(51, 51, 53); */
     text-decoration: none;
     display: block;
     width: fit-content;
@@ -289,7 +319,7 @@ aside {
 }
 
 ul {
-    float: right;
+    /* float: right; */
     background-size: cover;
 
 }
@@ -304,8 +334,13 @@ table {
     width: 100%;
     table-layout: fixed;
     border: 1px solid rgb(83, 83, 83);
-    color: rgb(68, 68, 68);
+    color: white;
     margin-top: 10%;
+}
+
+td a {
+    color: white;
+    /* text-decoration; */
 }
 
 .abus h1 {
