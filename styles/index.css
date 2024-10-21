@@ -106,8 +106,8 @@ footer {
 
 #footer_left,
 #footer_right {
-    /* display: flex; */
-    /* float: left; */
+    display: flex;
+    float: left;
     width: 50%;
     height: 100%;
 
