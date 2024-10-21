@@ -233,9 +233,12 @@ form {
     text-align: left;
 }
 
+header {
+    height: fit-content;
+}
 
-
-.dropdown img {
+button img {
+    display: block;
     text-align: left;
     display: block;
     width: 80px;
@@ -249,7 +252,7 @@ form {
     /* padding: 16px; */
     border: none;
     cursor: pointer;
-    margin-left: 10px;
+
     width: 80%;
     height: 80%;
     background: none;
@@ -303,6 +306,7 @@ aside {
     width: 40%;
     padding: 2px 2px;
 }
+
 .khanh .duc .kiet {
     float: left;
     width: 40%;
