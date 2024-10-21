@@ -288,11 +288,6 @@ body {
     color: rgb(66, 66, 66);
 }
 
-figure img {
-    float: left;
-    width: 35%;
-}
-
 /*khanh's part*/
 aside {
     float: left;
@@ -301,18 +296,30 @@ aside {
 }
 
 .abus ul {
-    float: right; /* Giữ danh sách ở phía bên phải */
-    width: 40%; /* Đảm bảo nó không quá rộng để tránh chèn vào ảnh */
-    margin-left: 20px; /* Đẩy danh sách sang phải thêm */
-    padding-left: 20px; /* Tạo khoảng cách giữa ảnh và danh sách */
+    float: right; /* Đặt danh sách ở phía bên phải */
+    width: 40%; /* Đảm bảo danh sách có kích thước vừa phải */
+    margin-left: 20px; /* Đẩy danh sách xa hơn khỏi hình ảnh */
+    padding-left: 20px; /* Tạo khoảng cách giữa danh sách và hình ảnh */
     background-size: cover;
-    list-style: none; /* Xóa ký hiệu chấm tròn của danh sách */
+    list-style: none; /* Xóa các ký hiệu bullet của danh sách */
 }
 
 .abus ul li {
     color: white;
     text-align: left;
-    padding-bottom: 10px; /* Thêm khoảng cách giữa các mục */
+    padding-bottom: 10px; /* Tạo khoảng cách giữa các mục trong danh sách */
+}
+
+figure img {
+    float: left;
+    width: 35%; /* Điều chỉnh kích thước ảnh để không chèn vào danh sách */
+    margin-right: 20px; /* Tạo khoảng cách giữa ảnh và danh sách chữ */
+}
+
+aside img {
+    float: left;
+    width: 40%; /* Kích thước hình ảnh trong phần `aside` */
+    margin-right: 10px; /* Thêm khoảng cách giữa ảnh trong `aside` và các phần tử khác */
 }
 
 table {
