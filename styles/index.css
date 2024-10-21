@@ -296,30 +296,29 @@ aside {
 }
 
 .abus ul {
-    float: right; /* Đặt danh sách ở phía bên phải */
-    width: 40%; /* Đảm bảo danh sách có kích thước vừa phải */
-    margin-left: 20px; /* Đẩy danh sách xa hơn khỏi hình ảnh */
-    padding-left: 20px; /* Tạo khoảng cách giữa danh sách và hình ảnh */
+    float: right; 
+    width: 40%; 
+    margin-left: 20px; 
+    padding-left: 20px; 
     background-size: cover;
-    list-style: none; /* Xóa các ký hiệu bullet của danh sách */
+    list-style: none;
 }
 
 .abus ul li {
     color: white;
     text-align: left;
-    padding-bottom: 10px; /* Tạo khoảng cách giữa các mục trong danh sách */
-}
+    padding-bottom: 10px; 
 
 figure img {
     float: left;
-    width: 35%; /* Điều chỉnh kích thước ảnh để không chèn vào danh sách */
-    margin-right: 20px; /* Tạo khoảng cách giữa ảnh và danh sách chữ */
+    width: 35%; 
+    margin-right: 20px; 
 }
 
 aside img {
     float: left;
-    width: 40%; /* Kích thước hình ảnh trong phần `aside` */
-    margin-right: 10px; /* Thêm khoảng cách giữa ảnh trong `aside` và các phần tử khác */
+    width: 59%;
+    margin-right: 10px; 
 }
 
 table {
