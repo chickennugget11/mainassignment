@@ -301,7 +301,7 @@ aside {
 }
 
 .abus ul {
-    float: right;
+    /*float: right;*/
     background-size: cover;
     width: 45%;
 }
