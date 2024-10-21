@@ -1,6 +1,10 @@
 /* index .css PAGE 1*/
 
-.page1 {
+.page1,
+.page2,
+.page3,
+.page4,
+.page5 {
     background-image: url('bgp1.png');
     background-size: cover;
     font-family: 'Afacad Flux', 'Source Code Pro', Arial, Helvetica, sans-serif;
@@ -95,13 +99,14 @@ footer {
     color: rgb(255, 255, 255);
     text-align: center;
 }
+
 /* jobs.css PAGE 2*/
 
-body .page2 {
+/* body .page2 {
     background-color: rgb(177, 177, 177);
     font-family: 'Afacad Flux';
     color: rgb(66, 66, 66);
-}
+} */
 
 .logo {
     position: fixed;
@@ -140,7 +145,7 @@ body .page2 {
     font-size: 7em;
     color: rgb(255, 255, 255);
     padding: 0.2em 0.4em;
-    background-image: url("bgp1.png");
+    /* background-image: url("bgp1.png"); */
     background-size: cover;
 }
 
@@ -183,7 +188,7 @@ div a {
     margin: 1em 1em 1em 1em;
 }
 
-footer p a{
+footer p a {
     font-family: 'Afacad Flux', Arial;
     padding: .625em 3.5em;
     background-color: rgb(56, 56, 58);
@@ -193,13 +198,15 @@ footer p a{
 
 
 /* for form PAGE 3*/
-.page3 {
+
+/* .page3 {
     background-image: url('bgp1.png');
     background-size: cover;
     font-family: 'Afacad Flux', 'Source Code Pro', Arial, Helvetica, sans-serif;
     color: white;
     background-color: rgb(248, 240, 255);
-}
+} */
+
 form {
     text-align: left;
 }
@@ -268,25 +275,30 @@ body {
     font-family: 'Afacad Flux';
     color: rgb(66, 66, 66);
 }
-figure img{
+
+figure img {
     float: left;
     width: 35%;
 }
+
 /*khanh's part*/
 aside {
     float: left;
     width: 40%;
     padding: 2px 2px;
 }
+
 ul {
     float: right;
     background-size: cover;
-    
+
 }
+
 ul li {
     color: white;
     text-align: left;
 }
+
 table {
     border: 2em;
     width: 100%;
@@ -295,6 +307,7 @@ table {
     color: rgb(68, 68, 68);
     margin-top: 10%;
 }
+
 .abus h1 {
     font-family: 'Afacad Flux', Arial;
     text-align: center;
