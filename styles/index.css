@@ -5,7 +5,7 @@
 .page3,
 .page4,
 .page5 {
-    background-image: url('bgp1.png');
+    background-image: url("./images/bgp1.png");
     background-size: cover;
     font-family: 'Afacad Flux', 'Source Code Pro', Arial, Helvetica, sans-serif;
     color: white;
@@ -176,7 +176,6 @@ footer ul {
     font-size: 7em;
     color: rgb(255, 255, 255);
     padding: 0.2em 0.4em;
-    /* background-image: url("bgp1.png"); */
     background-size: cover;
 }
 
@@ -229,14 +228,6 @@ footer p a {
 
 
 /* for form PAGE 3*/
-
-/* .page3 {
-    background-image: url('bgp1.png');
-    background-size: cover;
-    font-family: 'Afacad Flux', 'Source Code Pro', Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: rgb(248, 240, 255);
-} */
 
 form {
     text-align: left;
