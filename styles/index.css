@@ -141,16 +141,6 @@ footer p {
     display: inline-block; 
 }
 
-footer #footer_right ul li a {
-    display: block;
-    padding: .625em 3.5em;
-    font-family: 'Afacad Flux';
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    border-right: 1px black;
-}
-
-
 /* jobs.css PAGE 2*/
 
 /* body .page2 {
