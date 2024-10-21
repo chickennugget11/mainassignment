@@ -121,14 +121,33 @@ footer span {
 footer p {
     display: flex;
 }
+/*Edit the list in footer*/
+#footer_right {
+    display: flex;
+    float: right;
+    justify-content: space-between; 
+    align-items: center; 
+}
 
-footer p,
-footer ul {
-    display: inline-block;
-    height: 100%;
-    margin: 0;
+#footer_right ul {
+    list-style: none;
     padding: 0;
-    color: white;
+    margin: 0;
+    display: flex; 
+    gap: 20px;
+}
+
+#footer_right li {
+    display: inline-block; 
+}
+
+footer #footer_right ul li a {
+    display: block;
+    padding: .625em 3.5em;
+    font-family: 'Afacad Flux';
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-right: 1px black;
 }
 
 
