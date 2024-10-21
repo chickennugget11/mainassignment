@@ -375,8 +375,15 @@ aside img {
 
 table,
 td,
-th {
-    font-size: large;
+th,
+tr {
+    font-size: 1.1em;
     text-align: center;
     margin: 0;
+    background-color: rgba(78, 78, 81, 0.784);
+    ;
+}
+
+td>img {
+    width: 80px;
 }
