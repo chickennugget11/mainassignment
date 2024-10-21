@@ -78,12 +78,12 @@ main p {
 }
 
 .apply {
-    background-color: rgb(51, 51, 53);
+    background-color: white;;
     text-decoration: none;
     font-size: 1.3em;
     font-family: 'Afacad Flux', Arial;
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(51, 51, 53);
     display: block;
     width: fit-content;
     height: fit-content;
