@@ -364,3 +364,19 @@ td a {
     background-image: url("bgp1.png");
     background-size: cover;
 }
+
+
+
+aside img {
+    float: left;
+    width: 59%;
+    margin-right: 10px;
+}
+
+table,
+td,
+th {
+    font-size: large;
+    text-align: center;
+    margin: 0;
+}
