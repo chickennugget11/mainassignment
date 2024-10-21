@@ -78,6 +78,7 @@ main p {
 }
 
 .apply {
+    clear: both;
     background-color: white;
     text-decoration: none;
     font-size: 1.3em;
@@ -172,29 +173,10 @@ section p {
     font-size: 1.2em;
 }
 
-div {
-    text-align: center;
-    clear: both;
-    background-color: white;
-    text-decoration: none;
-    display: block;
-    width: fit-content;
-    height: fit-content;
-    font-weight: bold;
-    padding: .625em 3.5em;
-    border-radius: 10px;
-}
-
-div a {
-    font-size: 1.3em;
-    font-family: 'Afacad Flux', Arial;
-    color: rgb(51, 51, 53);
-}
-
 #job2,
 #job3 {
     background-color: rgba(78, 78, 81, 0.786);
-    border-radius: 10px;
+    background-size: cover;
     float: left;
     width: 47%;
     text-align: justify;
