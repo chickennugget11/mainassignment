@@ -114,6 +114,13 @@ footer {
     width: 50%;
     height: 100%;
 }
+#footer_right ul {
+    margin: 0;
+    padding: 0;
+}
+#footer_right ul li{
+    display: inline-block;
+}
 
 footer span {
     display: block;
