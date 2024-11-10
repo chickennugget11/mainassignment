@@ -19,19 +19,7 @@
 </head>
 
 <body class="page1">
-    <header>
-        <nav>
-            <div class="dropdown">
-                <button class="drop"> <img src="./images/logo.png" alt="menu"></button>
-                <div class="dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a href="jobs.html">Jobs Descriptions</a>
-                    <a href="apply.html">Applications</a>
-                    <a href="enhancements.html">Enhancements</a>
-                    <a href="about.html">About Us</a>
-                </div>
-        </nav>
-    </header>
+<?php include('header.inc'); ?>
     <br><br>
     <main>
         <a href="https://www.youtube.com/watch?v=CMwOkpH-5m0">OUR YOUTUBE VIDEO</a>
